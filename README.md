@@ -1,6 +1,8 @@
 NOTE: The arduino connection is unecessary, but included because it was initially part of the project, and due to time constraints was unable to be eliminated
 The ideal PetTrack program would only have the Raspberry Pi which would handle the motion sensor itself, and no Arduino. 
 The project changed relatively significantly close to the deadline, which is again why the Arduino is still integrated. 
+Remnants of this can be seen in the Arduino code, where it attaches it's own timestamp which is never used, as the Raspberry does that instead. 
+Once more, future versions would eliminate these redunancies given more time. 
 
 PetTrackArduino is to run on the Arduino.
 PetTrackRaspberry is to run on the Raspberry Pi.
